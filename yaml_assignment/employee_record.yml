@@ -1,0 +1,28 @@
+employee_data:
+  - name: john
+      employee_id: AC12304
+      phone_number:
+        - 8435693589
+        - 6757657564
+      address:
+        - home_address:
+            house_number: 21343, sector 66
+            pincode: 122012
+        
+        - office_address:
+            house_number: 2342, palm vihar
+            pincode: 122001
+
+  - name: Whitney
+        employee_id: AC2312
+        phone_number:
+          - 723643782
+          - 36457833
+        address:
+          - home_address:
+              house_number: 34732, street no 23
+              pincode: 123344
+        
+          - office_address:
+              house_number: 545, sheesh vihar, 324234
+              pincode: 342423

@@ -1,0 +1,19 @@
+[webservers]
+
+web1 ansible_host=server1.company.com ansible_connection=ssh ansible_user=root ansbile_ssh_pass=Pass@123
+
+web2 ansible_host=server1.company.com ansible_connection=ssh ansible_user=root ansbile_ssh_pass=Pass@234
+
+web3 ansible_host=server3.company.com ansible_connection=ssh ansible_user=root ansbile_ssh_pass=Pass@234
+
+[dbservers]
+
+db ansible_host=server4.company.com ansible_connection=ssh ansible_user=adminuser ansbile_ssh_pass=test@123
+
+[localhost]
+
+local ansible_host=localhost ansible_connection=local
+
+[all_servers:children]
+webservers
+dbservers
